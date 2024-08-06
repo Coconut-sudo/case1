@@ -1,0 +1,24 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: #3f4461;
+    display:flex;
+    justify-content: center;
+
+}
+
+.case_description {
+    background-color: #EDE6E3;
+    color: #3f4461;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    font-weight: bold;
+    line-height: 200%;
+    width: 1000px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
