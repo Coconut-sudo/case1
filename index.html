@@ -1,19 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
-    <title>OCH-Case 1</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>檢傷分類櫃台</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            font-size: 18px; /* 調整字體大小 */
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%; /* 確保圖片不會超出容器 */
+            height: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="case_description">
-        <h1>教案一 Pancreatitis</h1>
-        <p>簡述：一名 50 歲男子因上腹痛持續 5 小時前往急診室，有噁心嘔吐的現象。
-            男子菸齡 20 年，一天抽半包；因工作關係時常應酬喝酒，陪同妻子表示頻率約每周 3-4 次且不醉不歸。</p>
+    <h1>檢傷分類櫃台</h1>
+    <h2>問診與檢傷分類</h2>
+    <p>在這個階段，最重要的是蒐集病患基本資訊、評估病人 vital sign、了解病人就診原因然後建立鑑別診斷。所以接下來你可以詢問病人以下資訊：</p>
 
-    </div>
-    
-    
-    <script src="script.js"></script>
+    <ul>
+        <li>病患基本資訊：姓名、出生年月日，對話時注意病人意識狀態、表達能力也對診斷有幫助喔！</li>
+        <li>vital sign：取得病人 temperature、blood pressure、respiratory rate、heart rate。</li>
+        <li>就診原因：如同一般的問診，初學者可以參考固定架構如「LQQOPERA」防止漏掉必要資訊，而在急診問診時又更講求快速準確，所以當病患描述其主訴時，腦中就可以開始思考相關的鑑別診斷，再就這些線索繼續追問。</li>
+    </ul>
+
+    <h3>你可以詢問這位病患：</h3>
+    <ul>
+        <li>你可以描述疼痛的位置與範圍嗎？是哪種痛？痛的程度1-10分你會給幾分？</li>
+        <li>痛多久了？</li>
+        <li>做什麼事情會加重你的疼痛？什麼事會緩解？</li>
+        <li>除了肚子還有什麼地方也痛？</li>
+        <li>還有沒有其他伴隨的症狀？</li>
+        <li>平時飲食習慣如何？有沒有嗜吃甜食油炸物咖啡？</li>
+        <li>有沒有抽菸喝酒吃檳榔？</li>
+        <li>最近解便、解尿有沒有什麼異常？</li>
+    </ul>
+
+    <h3>經過仔細問診後，你得到的線索大致如下，並根據這些線索可以做以下聯想：</h3>
+    <ul>
+        <li>急遽腹痛約 5 小時且有噁心嘔吐 → 可能是消化道、肝膽胰、腹膜、主動脈瘤問題，因疼痛位置在上腹部，較不像是骨盆腔問題。</li>
+        <li>有抽菸喝酒：可能是胃潰瘍等消化道問題、胃食道逆流、急性胰臟炎。</li>
+        <li>解便解尿正常：消化道、泌尿道目前看不出出血徵象。</li>
+        <li>疼痛輻射到背部：可能是主動脈剝離、急性胰臟炎，也可能是與主訴無關的背痛。</li>
+        <li>彎曲蜷縮時會稍微緩解疼痛：像是急性胰臟炎會有的表現。</li>
+    </ul>
 </body>
 </html>

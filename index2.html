@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>檢查室</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            font-size: 18px; /* 調整字體大小 */
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%; /* 確保圖片不會超出容器 */
+            height: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>檢查室</h1>
+
+    <p>根據問診結果，假設你懷疑患者可能是急性胰臟炎、胃潰瘍或胃食道逆流。此時可以根據這些疾病開立檢驗檢查。</p>
+
+    <h2>1. 急性胰臟炎</h2>
+    <ul>
+        <li>診斷標準：以下三項符合兩項即可診斷
+            <ul>
+                <li><strong>痛</strong>：epigastric abdominal pain，可能輻射到背部</li>
+                <li><strong>數值</strong>：比 ULN 高三倍的 lipase 或 amylase</li>
+                <li><strong>影像</strong>：contrast-enhanced CT、MRI、ultrasound 發現急性胰臟炎特徵</li>
+            </ul>
+        </li>
+        <li>檢驗：serum lipase、serum amylase
+            <p>急性胰臟炎時，胰臟細胞被破壞而釋放出大量的酵素 lipase、amylase，因此測量這兩個指標可以幫助診斷急性胰臟炎（90-95% specific）。</p>
+        </li>
+        <li>影像檢查：Ultrasound、Contrast-enhanced CT, dual-phase
+            <ul>
+                <li>Ultrasound：最快速，急診時常用，用來檢查是否有膽結石、膽管擴大與腹水</li>
+                <li>CT：檢查耗時短，綜合評估下最好的診斷工具，也可以用來評估疾病嚴重程度，區分間質性胰臟炎與壞死性胰臟炎
+                    <ul>
+                        <li>symmetric pancreatic enhancement <br>
+                            <img src="1.png" width="300" alt="symmetric pancreatic enhancement">
+                        </li>
+                        <li>changes in density：水腫導致胰臟周圍密度改變，若積水會使胰臟 hypodense，影像上看起來較暗<br>
+                            <img src="2.png" width="300" alt="changes in density">
+                        </li>
+                        <li>dilated pancreatic duct <br>
+                            <img src="3.png" width="300" alt="dilated pancreatic duct">
+                        </li>
+                        <li>indistinct pancreatic margins：發炎導致邊緣不清晰</li>
+                        <li>focal or diffuse parenchymal enlargement</li>
+                        <li>surrounding retroperitoneal fat stranding</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>2. 胃潰瘍</h2>
+    <ul>
+        <li>診斷標準
+            <ul>
+                <li>胃鏡 + 切片</li>
+            </ul>
+        </li>
+        <li>檢驗
+            <ul>
+                <li>Ferritin、Iron、Transferrin (Transferrin saturation)
+                    <ul>
+                        <li>確認貧血狀態及原因（理論上是缺鐵性貧血）</li>
+                    </ul>
+                </li>
+                <li>Serial CBC
+                    <ul>
+                        <li>確認貧血狀態及原因（理論上是小球性貧血）</li>
+                    </ul>
+                </li>
+                <li>H.pylori test
+                    <ul>
+                        <li>&lt;60 yr: Urea breath test, stool antigen test</li>
+                        <li>&gt;60yr: 胃鏡 + 切片 (因為年紀愈大，癌症機率愈大)</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>影像學檢查
+            <ul>
+                <li>Forrest classification<br>
+                    <img src="4.png" width="600" alt="Forrest classification">
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>3. 胃食道逆流</h2>
+    <ul>
+        <li>診斷標準
+            <ul>
+                <li>Typical GERD
+                    <ul>
+                        <li>典型症狀（火燒心、酸味）：直接以 PPI 或 H2 blocker 治療，如果效果良好即為診斷</li>
+                    </ul>
+                </li>
+                <li>Atypical GERD
+                    <ul>
+                        <li>無典型症狀：胃食道逆流即為排除性診斷</li>
+                        <li>胃鏡 + 切片</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>影像學檢查
+            <ul>
+                <li>胃鏡 + 切片
+                    <ul>
+                        <li>有病理變化（例如黏膜變化）</li>
+                        <li>無病理變化：
+                            <ul>
+                                <li>胃食道逆流食道動力檢測 (High Resolution Manometry)</li>
+                                <li>24 小時多管腔食道內阻抗及酸鹼度測定（24H MII-PH）</li>
+                                <li>無線食道酸鹼檢測膠囊（BRAVO CAPSULE）</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
